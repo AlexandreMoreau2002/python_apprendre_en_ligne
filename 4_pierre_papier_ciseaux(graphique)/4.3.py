@@ -4,7 +4,7 @@ fenetre = Tk()
 fenetre.title("Pierre, Papier, Ciseaux")
 
 pierre = PhotoImage(
-    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/pierre.gif"
+    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/assets/pierre.gif"
 )
 
 for i in range(10):

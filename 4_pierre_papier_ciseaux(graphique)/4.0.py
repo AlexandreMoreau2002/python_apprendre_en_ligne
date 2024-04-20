@@ -70,19 +70,19 @@ fenetre.title("Pierre, papier, ciseaux")
 
 # images
 rien = PhotoImage(
-    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/rien.gif"
+    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/assets/rien.gif"
 )
 versus = PhotoImage(
-    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/versus.gif"
+    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/assets/versus.gif"
 )
 pierre = PhotoImage(
-    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/pierre.gif"
+    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/assets/pierre.gif"
 )
 papier = PhotoImage(
-    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/papier.gif"
+    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/assets/papier.gif"
 )
 ciseaux = PhotoImage(
-    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/ciseaux.gif"
+    file="/Users/alex/Desktop/python_apprendre_en_ligne/4_pierre_papier_ciseaux(graphique)/assets/ciseaux.gif"
 )
 
 # Label
