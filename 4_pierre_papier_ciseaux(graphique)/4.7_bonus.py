@@ -167,9 +167,8 @@ def resultat(porte):
         text += "\nDommage, vous avez fait le mauvais choix!"
         instruction.configure(text=text)
         game_number += 1
-    open(1)
-    open(2)
-    open(3)
+    for x in range(3):
+        open(x)
 
 
 def message(porte):
