@@ -64,14 +64,14 @@ def je_joue(valides):
     global possibles, nombres_premiers
     print("Nombres valides :", valides)
     i = len(valides) - 1
-    while (valides[i] not in nombre_premiers) and i > 0:
+    while (valides[i] not in nombres_premiers) and i > 0:
         i -= 1
-    if valides[i] in nombre_premiers:
+    if valides[i] in nombres_premiers:
         print("Je choisis comme nombre", valides[i])
         possibles.remove(valides[i])
         return valides[i]
-    if len(valides)>1:
-        mon_nombre = valides[randint(1,len(valides)-1)]
+    if len(valides) > 1:
+        mon_nombre = valides[randint(1, len(valides) - 1)]
     else:
         mon_nombre = valides[0]
     possibles.remove(mon_nombre)
@@ -96,7 +96,7 @@ print("Jouons avec des nombres entre 1 et", Nmax)
 possibles = list(range(1, Nmax + 1))  # liste des nombres pas encore joué
 commence = input("Voulez-vous commencer (o/n) ? ")
 valides = []
-nombre_premiers = liste_premiers(Nmax)
+nombres_premiers = liste_premiers(Nmax)
 
 # Début du jeu
 # Condition spéciale : le premier nombre joué doit être pair.
